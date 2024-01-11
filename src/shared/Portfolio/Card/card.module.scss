@@ -1,0 +1,49 @@
+
+.item{
+  grid-column: 3 span;
+
+    @media (max-width: (576px)) {
+      grid-column: 6 span;
+    }
+  &__photo{
+    position: relative;
+
+    &::before{
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      opacity: 0;
+      visibility: hidden;
+      background: rgba(255,255,255, 0.5);
+      background-image: url('../../../img/zoom.svg');
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: 80px;
+      transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+      cursor: pointer;
+    }
+
+    @media (min-width: (1025px)) {
+      &:hover:before{
+          opacity: 1;
+          visibility: visible;
+        }
+    }
+
+  }
+  &__btn{
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+    background-color: transparent;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+
+  }
+}

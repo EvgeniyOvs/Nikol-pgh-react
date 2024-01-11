@@ -1,0 +1,118 @@
+@import "src/color.module";
+.footer{
+  &__container{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    @media (max-width: (576px)) {
+      padding-top: 10px;
+      padding-bottom: 10px;
+      flex-direction: column;
+    }
+  }
+  &__logo{
+    @media (max-width: (576px)) {
+      padding-bottom: 10px;
+    }
+  }
+
+  &__call{
+    font-family: 'Muller';
+    transition: transform 0.3s ease-in-out;
+
+    @media (min-width: (1025px)) {
+      &:hover{
+        transform: scale(1.2);
+      }
+    }
+    @media (max-width: (576px)) {
+      padding-bottom: 10px;
+    }
+  }
+  &__callDescr{
+    margin-right: 10px;
+  }
+  &__callLink{
+    font-family: 'Muller';
+    cursor: pointer;
+  }
+}
+.socialList {
+  display: flex;
+  justify-content: space-between;
+
+  &__item {
+    &:not(:last-child) {
+      margin-right: 13px;
+    }
+  }
+
+  &__link {
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    transition: background-color 0.4s ease-in-out;
+
+    svg path {
+      transition: fill 0.4s ease-in-out;
+    }
+
+  }
+  &__linkVk{
+    @media (min-width: (1025px)) {
+
+      &:focus-visible {
+        //   background-color: $primary_light;
+
+        svg {
+          path {
+            fill: $blue;
+          }
+        }
+      }
+
+      &:hover:not(:focus-visible) {
+        svg path {
+          fill: $blue;
+        }
+      }
+    }
+
+    &:active:not(:focus-visible) {
+      svg path {
+        fill: $blue_shade;
+      }
+    }
+  }
+
+  &__linkInsta{
+    @media (min-width: (1025px)) {
+
+      &:focus-visible {
+        //   background-color: $primary_light;
+        svg {
+          path {
+            fill: $primary_light;
+          }
+        }
+      }
+
+      &:hover:not(:focus-visible) {
+        svg path {
+          fill: $primary_light;
+        }
+      }
+    }
+
+    &:active:not(:focus-visible) {
+      svg path {
+        fill: $primary;
+      }
+    }
+  }
+}

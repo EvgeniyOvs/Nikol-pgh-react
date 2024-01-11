@@ -1,0 +1,123 @@
+@import "../../color.module";
+
+.portfolio{
+  &__container{
+    padding-bottom: 40px;
+    @media (max-width: (576px)) {
+      padding-bottom: 20px;
+    }
+  }
+  &__item{
+    @media (min-width: (1025px)) {
+      &:hover{
+        .photo::before{
+          opacity: 1;
+          visibility: visible;
+        }
+
+      }
+    }
+
+  }
+
+  &__individual-item{
+    grid-column: 3 span;
+    @media (max-width: (576px)) {
+      grid-column: 6 span;
+    }
+  }
+  &__family-item{
+    grid-column: 3 span;
+    @media (max-width: (576px)) {
+      grid-column: 6 span;
+    }
+  }
+  &__lovestory-item{
+    grid-column: 3 span;
+    @media (max-width: (576px)) {
+      grid-column: 6 span;
+    }
+  }
+  &__wedding-item{
+    grid-column: 3 span;
+    @media (max-width: (576px)) {
+      grid-column: 6 span;
+    }
+  }
+
+  &__title{
+    font-family: 'Muller';
+    font-size: 20px;
+    line-height: 100%;
+    color: $white;
+    margin-bottom: 20px;
+  }
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+  }
+
+  &__btn{
+    margin-top: 25px;
+  }
+
+  &__grid{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 32px;
+    @media (max-width: (1024px)) {
+      grid-template-columns: repeat(9, 1fr);
+
+    }
+    @media (max-width: (768px)) {
+      grid-template-columns: repeat(6, 1fr);
+    }
+    @media (max-width: (576px)) {
+      grid-template-columns: repeat(6, 1fr);
+    }
+
+  }
+}
+.disable{
+  display: none;
+  visibility: hidden;
+}
+.btn{
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+  background-color: transparent;
+  padding: 22px 50px;
+  border-radius: 10px;
+  font-family: 'Open Sans';
+  transition: color 0.4s ease-in-out, background-color 0.4s ease-in-out,border-color 0.4s ease-in-out, transform 0.4s ease-in-out;
+
+  &__stroke{
+    padding: 16px 32px;
+    background: transparent;
+    border: 2px solid $white;
+    border-radius: 10px;
+    color: $white;
+    cursor: pointer;
+    transition: color 0.4s ease-in-out, background-color 0.4s ease-in-out,border-color 0.4s ease-in-out, transform 0.4s ease-in-out;
+
+    &:hover:not(:focus-visible){
+      background-color: $grey_light;
+      color: $grey_shade;
+
+    }
+    &:focus-visible{
+      background-color: $grey_light;
+      color: $grey_shade;
+    }
+    &:active:not(:focus-visible){
+      background-color: $white;
+      border-color: $grey_light;
+      color: $grey_shade;
+    }
+
+  }
+}

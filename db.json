@@ -1,0 +1,250 @@
+{
+  "individual": [
+  {
+    "id":1,
+    "title":"Индивидуальная съемка 1",
+    "mainImage": "../../static/1.jpg"
+  },
+  {
+    "id":2,
+    "title":"Индивидуальная съемка 2",
+    "mainImage": "../../static/1.jpg"
+  },
+  {
+    "id":3,
+    "title":"Индивидуальная съемка 3",
+    "mainImage": "../../static/1.jpg"
+  },
+  {
+    "id":4,
+    "title":"Индивидуальная съемка 4",
+    "mainImage": "../../static/1.jpg"
+  },
+  {
+    "id":5,
+    "title":"Индивидуальная съемка 5",
+    "mainImage": "../../static/1.jpg"
+  },
+  {
+    "id":6,
+    "title":"Индивидуальная съемка 6",
+    "mainImage": "../../static/1.jpg"
+  },
+  {
+    "id":7,
+    "title":"Индивидуальная съемка 7",
+    "mainImage": "../../static/1.jpg"
+  },
+  {
+    "id":8,
+    "title":"Индивидуальная съемка 8",
+    "mainImage": "../../static/1.jpg"
+  },
+  {
+    "id":9,
+    "title":"Индивидуальная съемка 9",
+    "mainImage": "../../static/1.jpg"
+  },
+  {
+    "id":10,
+    "title":"Индивидуальная съемка 10",
+    "mainImage": "../../static/1.jpg"
+  },
+  {
+    "id":11,
+    "title":"Индивидуальная съемка 11",
+    "mainImage": "../../static/1.jpg"
+  },
+  {
+    "id":12,
+    "title":"Индивидуальная съемка 12",
+    "mainImage": "../../static/1.jpg"
+  }
+],
+"family": [
+  {
+    "id":1,
+    "title":"Семейная съемка 1",
+    "mainImage": "../../static/1.jpg"
+  },
+  {
+    "id":2,
+    "title":"Семейная съемка 2",
+    "mainImage": "../../static/1.jpg"
+  },
+  {
+    "id":3,
+    "title":"Семейная съемка 3",
+    "mainImage": "../../static/1.jpg"
+  },
+  {
+    "id":4,
+    "title":"Семейная съемка 4",
+    "mainImage": "../../static/1.jpg"
+  },
+  {
+    "id":5,
+    "title":"Семейная съемка 5",
+    "mainImage": "../../static/1.jpg"
+  },
+  {
+    "id":6,
+    "title":"Семейная съемка 6",
+    "mainImage": "../../static/1.jpg"
+  },
+  {
+    "id":7,
+    "title":"Семейная съемка 7",
+    "mainImage": "../../static/1.jpg"
+  },
+  {
+    "id":8,
+    "title":"Семейная съемка 8",
+    "mainImage": "../../static/1.jpg"
+  },
+  {
+    "id":9,
+    "title":"Индивидуальная съемка 9",
+    "mainImage": "../../static/1.jpg"
+  },
+  {
+    "id":10,
+    "title":"Семейная съемка 10",
+    "mainImage": "../../static/1.jpg"
+  },
+  {
+    "id":11,
+    "title":"Семейная съемка 11",
+    "mainImage": "../../static/1.jpg"
+  },
+  {
+    "id":12,
+    "title":"Семейная съемка 12",
+    "mainImage": "../../static/1.jpg"
+  }
+],
+"loveStory": [
+  {
+    "id":1,
+    "title":"loveStory съемка 1",
+    "mainImage": "../../static/1.jpg"
+  },
+  {
+    "id":2,
+    "title":"loveStory съемка 2",
+    "mainImage": "../../static/1.jpg"
+  },
+  {
+    "id":3,
+    "title":"loveStory съемка 3",
+    "mainImage": "../../static/1.jpg"
+  },
+  {
+    "id":4,
+    "title":"loveStory съемка 4",
+    "mainImage": "../../static/1.jpg"
+  },
+  {
+    "id":5,
+    "title":"loveStory съемка 5",
+    "mainImage": "../../static/1.jpg"
+  },
+  {
+    "id":6,
+    "title":"loveStory съемка 6",
+    "mainImage": "../../static/1.jpg"
+  },
+  {
+    "id":7,
+    "title":"loveStory съемка 7",
+    "mainImage": "../../static/1.jpg"
+  },
+  {
+    "id":8,
+    "title":"loveStory съемка 8",
+    "mainImage": "../../static/1.jpg"
+  },
+  {
+    "id":9,
+    "title":"loveStory съемка 9",
+    "mainImage": "../../static/1.jpg"
+  },
+  {
+    "id":10,
+    "title":"loveStory съемка 10",
+    "mainImage": "../../static/1.jpg"
+  },
+  {
+    "id":11,
+    "title":"loveStory съемка 11",
+    "mainImage": "../../static/1.jpg"
+  },
+  {
+    "id":12,
+    "title":"loveStory съемка 12",
+    "mainImage": "../../static/1.jpg"
+  }
+],
+"wedding": [
+  {
+    "id":1,
+    "title":"Свадебная съемка 1",
+    "mainImage": "../../static/1.jpg"
+  },
+  {
+    "id":2,
+    "title":"Свадебная съемка 2",
+    "mainImage": "../../static/1.jpg"
+  },
+  {
+    "id":3,
+    "title":"Свадебная съемка 3",
+    "mainImage": "../../static/1.jpg"
+  },
+  {
+    "id":4,
+    "title":"Свадебная съемка 4",
+    "mainImage": "../../static/1.jpg"
+  },
+  {
+    "id":5,
+    "title":"Свадебная съемка 5",
+    "mainImage": "../../static/1.jpg"
+  },
+  {
+    "id":6,
+    "title":"Свадебная съемка 6",
+    "mainImage": "../../static/1.jpg"
+  },
+  {
+    "id":7,
+    "title":"Свадебная съемка 7",
+    "mainImage": "../../static/1.jpg"
+  },
+  {
+    "id":8,
+    "title":"Свадебная съемка 8",
+    "mainImage": "../../static/1.jpg"
+  },
+  {
+    "id":9,
+    "title":"Свадебная съемка 9",
+    "mainImage": "../../static/1.jpg"
+  },
+  {
+    "id":10,
+    "title":"Свадебная съемка 10",
+    "mainImage": "../../static/1.jpg"
+  },
+  {
+    "id":11,
+    "title":"Свадебная съемка 11",
+    "mainImage": "../../static/1.jpg"
+  },
+  {
+    "id":12,
+    "title":"Свадебная съемка 12",
+    "mainImage": "../../static/1.jpg"
+  }
+]
+}

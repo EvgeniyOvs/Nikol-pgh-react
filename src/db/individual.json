@@ -1,0 +1,62 @@
+[
+  {
+    "id":1,
+    "title":"Индивидуальная съемка 1",
+    "mainImage": "../../static/1.jpg"
+  },
+  {
+    "id":2,
+    "title":"Индивидуальная съемка 2",
+    "mainImage": "../../static/1.jpg"
+  },
+  {
+    "id":3,
+    "title":"Индивидуальная съемка 3",
+    "mainImage": "../../static/1.jpg"
+  },
+  {
+    "id":4,
+    "title":"Индивидуальная съемка 4",
+    "mainImage": "../../static/1.jpg"
+  },
+  {
+    "id":5,
+    "title":"Индивидуальная съемка 5",
+    "mainImage": "../../static/1.jpg"
+  },
+  {
+    "id":6,
+    "title":"Индивидуальная съемка 6",
+    "mainImage": "../../static/1.jpg"
+  },
+  {
+    "id":7,
+    "title":"Индивидуальная съемка 7",
+    "mainImage": "../../static/1.jpg"
+  },
+  {
+    "id":8,
+    "title":"Индивидуальная съемка 8",
+    "mainImage": "../../static/1.jpg"
+  },
+  {
+    "id":9,
+    "title":"Индивидуальная съемка 9",
+    "mainImage": "../../static/1.jpg"
+  },
+  {
+    "id":10,
+    "title":"Индивидуальная съемка 10",
+    "mainImage": "../../static/1.jpg"
+  },
+  {
+    "id":11,
+    "title":"Индивидуальная съемка 11",
+    "mainImage": "../../static/1.jpg"
+  },
+  {
+    "id":12,
+    "title":"Индивидуальная съемка 12",
+    "mainImage": "../../static/1.jpg"
+  }
+]

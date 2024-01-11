@@ -1,0 +1,33 @@
+.skeletons {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 32px;
+
+  @media (max-width: (1024px)) {
+    grid-template-columns: repeat(9, 1fr);
+
+  }
+  @media (max-width: (768px)) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  @media (max-width: (576px)) {
+    grid-template-columns: repeat(6, 1fr);
+  }
+
+    &__mobile{
+      grid-column: 3 span;
+      @media (max-width: (1024px)) {
+        grid-column: 3 span;
+
+      }
+      @media (max-width: (768px)) {
+        grid-column: 3 span;
+      }
+      @media (max-width: (576px)) {
+        grid-column: 6 span;
+      }
+    }
+
+
+
+}

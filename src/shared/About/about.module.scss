@@ -1,0 +1,15 @@
+.about{
+  &__container{
+    padding-bottom: 40px;
+    @media (max-width: (576px)) {
+      padding-bottom: 20px;
+    }
+  }
+  &__descr{
+    width: 40%;
+    font-family: 'Muller';
+    @media (max-width: (576px)) {
+      width: 100%;
+    }
+  }
+}
