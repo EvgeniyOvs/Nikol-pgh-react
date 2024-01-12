@@ -3,8 +3,9 @@ import styles from './header.module.scss';
 import stylesGlobal from '../../main.global.scss'
 import {Ecolor, Text} from "../../components";
 import gsap from "gsap"
-import ScrollToPlugin from "gsap/ScrollToPlugin";
+import ScrollToPlugin from "gsap/dist/ScrollToPlugin";
 import Vars = ScrollTrigger.Vars;
+
 
 export interface MyRef {
   artRef1: any,
